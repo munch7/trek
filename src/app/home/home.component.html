@@ -1,0 +1,57 @@
+<div class="container">
+    <!-- Image Slider Section -->
+    <div class="section2">
+        <owl-carousel-o [options]="customOptions">
+            <ng-template carouselSlide *ngFor="let image of images">
+                <img [src]="image" alt="Slide Image">
+            </ng-template>
+        </owl-carousel-o>
+    </div>
+
+    <!-- Latest Updates Section -->
+    <div class="section">
+        <h2>Latest Updates</h2>
+        <ul>
+            <li>🌟 Grand opening of our new adventure park!</li>
+            <li>🏆 Exclusive discounts on hiking gear.</li>
+            <li>📢 Join our upcoming mountain trek challenge.</li>
+        </ul>
+    </div>
+
+    <!-- Latest Updates Section -->
+    <div class="section1">
+        <h2>Latest Updates</h2>
+        <ul>
+            <li>🌟 Grand opening of our new adventure park!</li>
+            <li>🏆 Exclusive discounts on hiking gear.</li>
+            <li>📢 Join our upcoming mountain trek challenge.</li>
+        </ul>
+    </div>
+
+    <!-- Newest Products Section -->
+    <div class="section">
+        <h2>Newest Products</h2>
+        <div class="products">
+            <div class="product">
+                <img src="../../assets/product1.jpg" alt="Product 1">
+                <p>Pro Hiking Boots</p>
+                <span class="price">$129.99</span>
+            </div>
+            <div class="product">
+                <img src="../../assets/product2.jpg" alt="Product 2">
+                <p>UltraLight Camping Tent</p>
+                <span class="price">$249.99</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick Links Section -->
+    <div class="section1">
+        <h2>Quick Links</h2>
+        <ul>
+            <li><a href="#">🏔️ Adventure Trips</a></li>
+            <li><a href="#">🛒 Shop Now</a></li>
+            <li><a href="#">📅 Upcoming Events</a></li>
+        </ul>
+    </div>
+</div>
